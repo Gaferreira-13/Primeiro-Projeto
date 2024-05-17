@@ -1,0 +1,138 @@
+/*=====================Seção Tags============================*/
+
+body {
+  color: #40514e;
+  margin: 0px;
+  text-align: center;
+  font-family: "Merriweather", "Arial Narrow", Arial, sans-serif;
+}
+
+h1 {
+  font-family: "Sacramento", cursive;
+  line-height: 2;
+  margin: 0 auto;
+  font-size: 5.625rem;
+  color: #66bfbf;
+  font-weight: normal;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+  color: #66bfbf;
+  padding: 5%;
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.7rem;
+  color: #66bfbf;
+}
+
+p {
+  line-height: 2;
+}
+
+hr {
+  border: dotted black 6px;
+  border-bottom: none;
+  width: 5%;
+  margin: 100px auto;
+}
+
+a {
+  color: #11999e;
+  font-family: "Montserrat", sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+}
+
+/*=====================Seção Classes============================*/
+
+.topo-site {
+  background-color: #222831;
+  position: relative;
+  padding-top: 100px;
+}
+
+.meio-site {
+  margin: 100px auto;
+  background-color: #9ca0a0;
+}
+
+.final-site {
+  background-color: #222831;
+  margin-top: 30px;
+  padding-top: 30px;
+}
+
+.imagem-topo {
+  width: 30%;
+}
+
+.hab1 {
+  width: 25%;
+  margin-right: 30px;
+  float: left;
+}
+
+.hab2 {
+  width: 25%;
+  float: right;
+  margin-right: 30px;
+}
+
+.foto {
+  border-radius: 60%;
+  width: 20%;
+}
+
+.habilidade-img {
+  width: 50%;
+  margin: 100px auto 10px auto;
+  text-align: left;
+}
+
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px;
+  text-align: center;
+}
+
+.btn {
+  background: #10c1ce;
+  background-image: -webkit-linear-gradient(top, #10c1ce, #2980b9);
+  background-image: -moz-linear-gradient(top, #10c1ce, #2980b9);
+  background-image: -ms-linear-gradient(top, #10c1ce, #2980b9);
+  background-image: -o-linear-gradient(top, #10c1ce, #2980b9);
+  background-image: linear-gradient(to bottom, #10c1ce, #2980b9);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 24px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+
+.marca {
+  color: white;
+  font-size: 0,75rem;
+  padding: 20px 0 ;
+}
